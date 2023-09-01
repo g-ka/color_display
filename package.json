@@ -2,6 +2,7 @@
   "name": "practice_project",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://g-ka.github.io/color_display/",
   "dependencies": {
     "colornames": "^1.1.1",
     "react": "^18.2.0",
