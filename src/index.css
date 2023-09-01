@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.display_input{
+  aspect-ratio: 1/1;
+  width: 20vw;
+  font-size: 1.4rem;
+  border-radius: 0.7rem;
+  text-align: center;
+}
+
+.input_input{
+  width: 20vw;
+  height: 3rem;
+  padding: 0.5rem 1.5rem;
+  font-size: 1.4rem;
+  border-radius: 0.4rem;
+}
+
+.toggle{
+  width: 20vw;
+  height: 3rem;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  font-size: 1.4rem;
+  border-radius: 0.4rem;
+}
+.toggle:hover{
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
